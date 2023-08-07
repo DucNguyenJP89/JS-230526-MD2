@@ -1,0 +1,72 @@
+.register {
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-color: #fff;
+    text-align: left;
+}
+
+.register h2 {
+    max-width: 480px;
+    margin: 10px auto;
+    margin-top: 28px;
+}
+
+.register .register-form {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.register-form .input-group {
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.input-group label {
+    font-size: 14px;
+}
+
+.input-group input {
+    padding: 10px 12px;
+    border: 1px solid #dedde1;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.register-form .input-group .birthday, .input-group .gender {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4px;
+}
+
+.birthday input {
+    width: 33%;
+}
+
+.gender div {
+    width: 33%;
+    display: flex;
+    padding: 10px 12px;
+    border: 1px solid #dedde1;
+    border-radius: 8px;
+}
+
+.gender div label {
+    margin-left: 8px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #dedde1;
+    color: #333;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.register-form button:hover {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: #fff;
+}
